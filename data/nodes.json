@@ -1,0 +1,33 @@
+{
+  "scans": [
+    {
+      "timestamp": "2025-03-09T14:54:02.672073",
+      "nodes": [
+        {
+          "url": "https://xmr.vvv.systems",
+          "type": "clearnet",
+          "status": "error",
+          "error": "HTTP 404"
+        },
+        {
+          "url": "https://xmr.salami.network:18089",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Connection failed"
+        },
+        {
+          "url": "http://moneroexnovtlp4datcwbgjznnulgm7q34wcl6r4gcvccruhkceb2xyd.onion:18089",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Connection failed"
+        },
+        {
+          "url": "http://6jvn5tinwxnp723vnsvekroaniq7qkag7nkdqmcwlbinxnpeonaowayd.onion:18089",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Connection failed"
+        }
+      ]
+    }
+  ]
+}

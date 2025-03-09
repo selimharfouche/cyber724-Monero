@@ -1,0 +1,11 @@
+{
+  "scan_interval_minutes": 60,
+  "telegram": {
+    "enabled": true
+  },
+  "tor": {
+    "enabled": true,
+    "control_port": 9051,
+    "socks_port": 9050
+  }
+}
