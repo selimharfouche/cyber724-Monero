@@ -2,7 +2,7 @@ name: Monero Node Scanner
 
 on:
   schedule:
-    # Run at specific times (midnight, 6am, 12pm, 6pm UTC)
+    # Run at exactly midnight, 6am, 12pm, and 6pm UTC
     - cron: '0 0,6,12,18 * * *'
   # Allow manual triggering
   workflow_dispatch:
@@ -42,22 +42,22 @@ jobs:
           # Create necessary directories
           mkdir -p data
           
-          # Run the scanner once
-          python main.py --scan-once
+          # Run the scanner once (default mode)
+          python main.py
 
-      - name: Archive results
-        uses: actions/upload-artifact@v3
+      - name: Archive scan results
+        uses: actions/upload-artifact@v4
         with:
-          name: scan-results
+          name: node-scan-results
           path: data/latest_scan.json
           retention-days: 7
 
-      - name: Commit and push if there are changes
+      - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Only commit changes to data directory
+          # Add only the data directory
           git add -A data/
           
           # Check if there are changes to commit

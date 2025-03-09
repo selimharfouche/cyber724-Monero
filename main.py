@@ -93,14 +93,14 @@ def check_node(node, use_tor=True):
     # Remove trailing slash if present
     base_url = url.rstrip('/')
     
-    # Define methods that are more likely to return height information
+    # Define methods that are most likely to return height information
     height_methods = [
         # Method 1: Direct get_info endpoint - most likely to have height
         {"type": "rpc", "url": f"{base_url}/get_info", "data": {"jsonrpc": "2.0", "id": "0", "method": "get_info"}},
         # Method 2: Standard RPC check for get_info
         {"type": "rpc", "url": f"{base_url}/json_rpc", "data": {"jsonrpc": "2.0", "id": "0", "method": "get_info"}},
-        # Method 3: Get last block header (has height in it)
-        {"type": "rpc", "url": f"{base_url}/json_rpc", "data": {"jsonrpc": "2.0", "id": "0", "method": "get_last_block_header"}},
+        # Method 3: Get last block header (has height in header)
+        {"type": "rpc", "url": f"{base_url}/json_rpc", "data": {"jsonrpc": "2.0", "id": "0", "method": "get_last_block_header"}}
     ]
     
     # Try height-specific methods first
@@ -130,12 +130,9 @@ def check_node(node, use_tor=True):
                                 "status": "online",
                                 "height": height,
                                 "version": result.get('version', ''),
-                                "top_block_hash": result.get('top_block_hash', ''),
-                                "difficulty": result.get('difficulty', 0),
-                                "tx_count": result.get('tx_count', 0),
-                                "tx_pool_size": result.get('tx_pool_size', 0)
+                                "difficulty": result.get('difficulty', 0)
                             }
-                except Exception as e:
+                except Exception:
                     # JSON parsing failed, try next method
                     continue
         except Exception:
@@ -145,7 +142,7 @@ def check_node(node, use_tor=True):
     # Fallback methods just to check if node is online
     basic_methods = [
         {"type": "get", "url": base_url},
-        {"type": "get", "url": f"{base_url}/get_info"},
+        {"type": "get", "url": f"{base_url}/get_info"}
     ]
     
     # If height methods failed, try basic methods to at least determine if node is online
@@ -207,6 +204,7 @@ def main():
                 time.sleep(settings['scan_interval_minutes'] * 60)
         else:
             # Default to single scan
+            logger.info("Running single scan mode")
             run_scan(settings, use_tor)
     except KeyboardInterrupt:
         logger.info("Monitoring stopped by user")
