@@ -214,6 +214,9 @@ def run_scan(settings, use_tor=True):
     """Run a single scan of all Monero nodes"""
     logger.info("Starting Monero node scan")
     
+    # Start timing the scan
+    scan_start_time = time.time()
+    
     # Load nodes
     nodes = load_nodes()
     if not nodes:
@@ -244,10 +247,14 @@ def run_scan(settings, use_tor=True):
             
         results.append(result)
     
+    # Calculate total scan time
+    scan_time = time.time() - scan_start_time
+    
     # Add timestamp to data
     scan_result = {
         "timestamp": timestamp,
-        "nodes": results
+        "nodes": results,
+        "scan_duration": scan_time  # Also store scan time in the result
     }
     
     # Save to JSON file
@@ -270,7 +277,7 @@ def run_scan(settings, use_tor=True):
     offline = sum(1 for node in results if node["status"] == "offline")
     error = sum(1 for node in results if node["status"] != "online" and node["status"] != "offline")
     
-    logger.info(f"Scan completed: {online_count} online, {offline} offline, {error} error, out of {total} total nodes")
+    logger.info(f"Scan completed in {scan_time:.1f} seconds: {online_count} online, {offline} offline, {error} error, out of {total} total nodes")
     
     # Send Telegram notification if enabled
     if settings["telegram"]["enabled"]:
@@ -278,9 +285,8 @@ def run_scan(settings, use_tor=True):
         if not os.environ.get("TELEGRAM_BOT_TOKEN") or not os.environ.get("TELEGRAM_CHANNEL_ID"):
             logger.warning("Telegram environment variables not set. Skipping notification.")
         else:
-            send_scan_results(scan_result)
+            send_scan_results(scan_result, scan_time)
     
     return scan_result
-
 if __name__ == "__main__":
     main()

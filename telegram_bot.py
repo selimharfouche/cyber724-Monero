@@ -37,7 +37,7 @@ def send_telegram_message(message):
         logger.error(f"Error sending Telegram message: {e}")
         return False
 
-def format_scan_results(scan_result):
+def format_scan_results(scan_result, scan_time=None):
     """Format scan results for Telegram message"""
     # Parse timestamp
     try:
@@ -53,39 +53,54 @@ def format_scan_results(scan_result):
     clearnet_online = sum(1 for node in nodes if node["type"] == "clearnet" and node["status"] == "online")
     darknet_online = sum(1 for node in nodes if node["type"] == "darknet" and node["status"] == "online")
     
-    # Find highest block height
-    heights = [node.get("height", 0) for node in nodes if node.get("status") == "online" and node.get("height", 0) > 0]
+    # Calculate network statistics
+    online_with_height = [node for node in nodes if node["status"] == "online" and node.get("height", 0) > 0]
+    heights = [node.get("height", 0) for node in online_with_height]
     max_height = max(heights) if heights else 0
+    
+    # Find median height to detect potential chain splits
+    if heights:
+        sorted_heights = sorted(heights)
+        mid = len(sorted_heights) // 2
+        if len(sorted_heights) % 2 == 0:
+            median_height = (sorted_heights[mid-1] + sorted_heights[mid]) / 2
+        else:
+            median_height = sorted_heights[mid]
+    else:
+        median_height = 0
+    
+    # Count nodes near the highest height (within 10 blocks)
+    synced_nodes = sum(1 for h in heights if max_height - h <= 10)
+    synced_percent = (synced_nodes / len(online_with_height) * 100) if online_with_height else 0
+    
+    # Calculate network health score (0-100)
+    if total_nodes > 0 and online_with_height:
+        health_score = (online_nodes / total_nodes * 0.5 + synced_nodes / len(online_with_height) * 0.5) * 100
+    else:
+        health_score = 0
     
     # Create message
     message = f"*Monero Node Scan Results*\n"
     message += f"📅 *Time*: {formatted_time}\n"
+    
+    # Include scan time if provided
+    if scan_time:
+        message += f"⏱️ *Scan Duration*: {scan_time:.1f} seconds\n"
+    
     message += f"📊 *Summary*:\n"
     message += f"- Total nodes: {total_nodes}\n"
-    message += f"- Online nodes: {online_nodes}/{total_nodes} ({online_nodes/total_nodes*100:.1f}%)\n"
-    message += f"- Clearnet online: {clearnet_online}\n"
-    message += f"- Darknet online: {darknet_online}\n"
-    message += f"- Highest block: {max_height}\n\n"
+    message += f"- Online: {online_nodes}/{total_nodes} ({online_nodes/total_nodes*100:.1f}%)\n"
+    message += f"- Clearnet: {clearnet_online} | Darknet: {darknet_online}\n\n"
     
-    # Add details for online nodes with highest blocks
-    message += f"*Top Online Nodes*:\n"
-    
-    # Get top 5 nodes by height
-    top_nodes = sorted([node for node in nodes if node["status"] == "online" and node.get("height", 0) > 0], 
-                       key=lambda x: x.get("height", 0), reverse=True)[:5]
-    
-    for i, node in enumerate(top_nodes):
-        url_display = node["url"].split("://")[1].split(":")[0]
-        # Truncate long .onion addresses
-        if len(url_display) > 30:
-            url_display = url_display[:20] + "..." + url_display[-7:]
-        
-        height = node.get("height", "N/A")
-        message += f"{i+1}. `{url_display}` - Height: {height}\n"
+    # Network health indicators
+    message += f"*Network Status*:\n"
+    message += f"- Block Height: {max_height}\n"
+    message += f"- Synced Nodes: {synced_nodes}/{len(online_with_height)} ({synced_percent:.1f}%)\n"
+    message += f"- Health Score: {health_score:.1f}/100\n"
     
     return message
 
-def send_scan_results(scan_result, telegram_config=None):
+def send_scan_results(scan_result, scan_time=None):
     """Send formatted scan results via Telegram"""
-    message = format_scan_results(scan_result)
+    message = format_scan_results(scan_result, scan_time)
     return send_telegram_message(message)
