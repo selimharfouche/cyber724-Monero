@@ -1,818 +1,6 @@
 {
   "scans": [
     {
-      "timestamp": "2025-05-30T02:00:39.631249",
-      "nodes": [
-        {
-          "url": "http://compking.ddns.net:18089",
-          "type": "clearnet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://pinodexmr.hopto.org:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "https://xmr.marritt.ca",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "https://moneronode.tjthespy.com:18089",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://66666666ir37f6ct7igosrapjrkektsv34bjieop3654bs6wchibqwyd.onion:24289",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://mail.daline.com.cn:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "0.18.3.4-release",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://mexymskdcpunttj3kozziuw62aryumjggulew2kafk7rmvkmegrrgfyd.onion:18081",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://uqj3aphckqtjsitz7kxx5flqpwjlq5ppr3chazfued7xucv3nheq.b32.i2p:18089",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://qte57xn6bmmwrxzwyu3eeryehsoxwufqssgvig6gs2hnceh5klj5tjad.onion:18089",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://234567x3ngs2wkjdlqmqo56t33s5mjh6dkobophwgthryfutydyax2qd.onion:20989",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://2222222sm7eae2erfh6bs3bfmmp67srqdgmk4nudtbqgoocpnkbso5ad.onion:31589",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://4q6ps46l3wv2x6zn7faeliycpdwldohex5oc4slplud65o6lpleq.b32.i2p",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://31.14.41.148:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "https://node.chaoswg.dev",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://plowsofe6cleftfmk2raiw5h2x66atrik3nja4bfd3zrfa2hdlgworad.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422676,
-          "version": "",
-          "difficulty": 0
-        },
-        {
-          "url": "http://aclc4e2jhhtr44guufbnwk5bzwhaecinax4yip4wr4tjn27sjsfg6zqd.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://securemonero.ddns.net:18089",
-          "type": "clearnet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://doggettavnnnctrwm5dv6k42zmtl5f7j2n7sadfmibmnel4cantlf2id.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://qrkyy37jo54qcajfgdjderi7mpz6xkf4s7ewzpxzuld77lwz6trnxzid.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://one23456x5ke63wn3qafkmrmwmgai6nbuaryle5s3xd7y7hmjhzr3yid.onion:18489",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "https://xmr.0xrpc.io",
-          "type": "clearnet",
-          "status": "online",
-          "note": "Responded with status 200",
-          "height": 0
-        },
-        {
-          "url": "http://ezpq6zn7t7424cfety75xpmxe2hbpqgsxrxeaqqesgxzuvnkkgzq.b32.i2p:18081",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://slc.sully.plus:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://xmrnodei64luhuwm4qfi7jga2k3tdpy7l2ovbledihfjgt2xvvw3paad.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://9x.ddns.net:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://2222222rwcchnbljnkibxmtrm5by5w7phk2w4xni3l6yomqcyupovvyd.onion:31489",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://tor-exit-223.for-privacy.net:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://plowsof3t5hogddwabaeiyrno25efmzfxyro2vligremt7sxpsclfaid.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://ncbkcouzbqzcskr3dy26bvgzztpt7ywtjd2ly2bpv5c5zfxoht7gthad.onion:18081",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://2222225n32lfzgmhy3fpedt66j3tgcxdscbovalubpulgbqcqthlejid.onion:32489",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://one234fpth7flvtyvdbxmjb2dwfgmqz3r3sjyjsxqnlndy4ad6d5odqd.onion:30589",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://dicepro4s6naj2jxo64g2fxj4nvn3cs2jp6hjmp36dzioegmfjcn6uad.onion:18089",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://xmr.monopolymoney.eu:18089",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "https://libertytmtitynvmnto2k42liys5fenb3wabaozmmmksyrc7jvgmjiqd.onion:18089",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://121.98.149.60:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "0.18.4.0-release",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://monero3x5yrb7tsalxx64tr2qhfw54xy3eudhswvpaskfvsdk2tzb3id.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://103.57.251.200:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://77777777cdlacuu2p5bzpf36iyq7v5qy42z7x7arrokxvkq56cvxf2ad.onion:21389",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://176.106.34.61:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://uss7rxezudh2oktqpsnsnhwl5mb3mumidp3sltmnl43dsm557zfgucid.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422677,
-          "version": "",
-          "difficulty": 562439132910
-        },
-        {
-          "url": "http://klybifhxe72uogbchp7cc2b5cuto4rst62b2ibcyhrq4i6npgfva.b32.i2p:18081",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://42gknieeubgvlxmfjophefk7k6bfw4yzrgnxozgp6e26xbbynq7q.b32.i2p:18089",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://nodex.monerujo.io:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422678,
-          "version": "",
-          "difficulty": 562372929808
-        },
-        {
-          "url": "http://one234athn3w6hrbanxgaxepxqs4676b6imdatd3spidzis3xj47lrad.onion:29289",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422678,
-          "version": "",
-          "difficulty": 562372929808
-        },
-        {
-          "url": "http://caninebear.com:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422678,
-          "version": "",
-          "difficulty": 562372929808
-        },
-        {
-          "url": "http://185.112.144.198:18089",
-          "type": "clearnet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://plowsoffjexmxalw73tkjmf422gq6575fc7vicuu4javzn2ynnte6tyd.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422679,
-          "version": "",
-          "difficulty": 565216487435
-        },
-        {
-          "url": "https://xmr.visnova.pl",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422679,
-          "version": "",
-          "difficulty": 565216487435
-        },
-        {
-          "url": "http://ma4yeiegtwd6xaawno3afjna6fd427drfzh4ajk6wtdgfvhkgrwa.b32.i2p:18089",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://34.71.217.137:18081",
-          "type": "clearnet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://ndbjchnxa5mt4lezsbrkiiicbdozxowygez5kp5soy5w7loxo5ka.b32.i2p:18081",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://hsubztxyvssd7b4i3fyxaqdhw53vike2gb6y34nuxuqbqylbyh6smdyd.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422679,
-          "version": "",
-          "difficulty": 565216487435
-        },
-        {
-          "url": "https://node.icefiles.nz:18081",
-          "type": "clearnet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://v6a2clstyvpar6rjoqdl75ghjb4joka2hdzv7e2vgtshlzrlu5hojkqd.onion:18081",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422682,
-          "version": "",
-          "difficulty": 564091146212
-        },
-        {
-          "url": "https://xmr.bunkerlab.net:443",
-          "type": "clearnet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://7777777oto6ppi27wr7knmnt2xbidygthzd3tw6uounppvmj3gar6tyd.onion:22589",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://xmrrpcmyrz3imrldcwiqt4vm5asq2vefgzybamxdigx37p3ctfcjnsad.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422684,
-          "version": "",
-          "difficulty": 563283254502
-        },
-        {
-          "url": "http://88.3.210.198:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422684,
-          "version": "",
-          "difficulty": 563283254502
-        },
-        {
-          "url": "http://35.198.32.241:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422684,
-          "version": "",
-          "difficulty": 563283254502
-        },
-        {
-          "url": "http://ptq6ldqaxcok32ipzzysggivaanvdu3cylnr6y32i6aa6qaqc7bq.b32.i2p:18081",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://node2-us.monero.love:18089",
-          "type": "clearnet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://prdxssrzuovun5ucghpwlwafe6b2jje3j32ctfqrhhs5cllv3boq.b32.i2p:18081",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://67.82.72.131:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422685,
-          "version": "",
-          "difficulty": 563931815561
-        },
-        {
-          "url": "http://b3bgoxb6ximsjvks5jpzdkm5gntbd3ititgkvwfkuxtqit5wguzq.b32.i2p:18089",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://234567iafmgiypwchnrervjox36ushxrdi44tfxrdt24zjkjpvs6uvad.onion:19489",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422685,
-          "version": "",
-          "difficulty": 563931815561
-        },
-        {
-          "url": "http://xrft3jrcdrfwvry4aocxcswvwturaqxelesmtdk34j4646tajmc6rxyd.onion:18089",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://2222224jluwinkwl2xsrjtoevj67xfj677zyqlcc6lgarso7ni5blfyd.onion:32289",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422686,
-          "version": "",
-          "difficulty": 563761376362
-        },
-        {
-          "url": "http://31.14.41.157:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422686,
-          "version": "0.18.1.0-c8214782f",
-          "difficulty": 563761376362
-        },
-        {
-          "url": "http://54wxpf3y6jxqjklb4fdnafvb7f7qm5753gctu6gs65l6mczf72ma.b32.i2p:18081",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://65.21.153.254:18081",
-          "type": "clearnet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "https://qte57xn6bmmwrxzwyu3eeryehsoxwufqssgvig6gs2hnceh5klj5tjad.onion:18089",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://lrl3wbfozqhvgha52desypnveo5mjvyjoh4yg67tzmopyoefh4v3abad.onion:18089",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://nthpyro.dev:18089",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422687,
-          "version": "",
-          "difficulty": 563369638057
-        },
-        {
-          "url": "http://222222436ouvztzlwlxz7sswmtyvw6s5f6z24pymfhfj5nefji3vsdqd.onion:31889",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422687,
-          "version": "",
-          "difficulty": 563369638057
-        },
-        {
-          "url": "http://81.207.74.50:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422687,
-          "version": "",
-          "difficulty": 563369638057
-        },
-        {
-          "url": "http://5j2dtog2ygqldte4bbnbxkp3wilfu5krlhpplwoxpouuvd6jpmoa.b32.i2p:18081",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://46.242.130.241:18089",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422687,
-          "version": "",
-          "difficulty": 563369638057
-        },
-        {
-          "url": "http://kie74uavctkniabg5khbxbix3jwvb3jtftb2szvrtnkucvuuzvfodnid.onion:18081",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422687,
-          "version": "",
-          "difficulty": 563369638057
-        },
-        {
-          "url": "http://78.80.178.209:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422687,
-          "version": "",
-          "difficulty": 563369638057
-        },
-        {
-          "url": "http://xmr-de.boldsuck.org:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422687,
-          "version": "",
-          "difficulty": 563369638057
-        },
-        {
-          "url": "http://mailia.sds-ip.de:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422687,
-          "version": "",
-          "difficulty": 563369638057
-        },
-        {
-          "url": "http://147.45.196.232:18089",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422687,
-          "version": "",
-          "difficulty": 563369638057
-        },
-        {
-          "url": "http://2222224o2usuyyw3jb3gv7zaaqoitwje2xtrenemwdnjupsmtfjn7lqd.onion:32389",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422687,
-          "version": "",
-          "difficulty": 563369638057
-        },
-        {
-          "url": "http://68.251.60.69:18089",
-          "type": "clearnet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://104.153.209.162:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422689,
-          "version": "",
-          "difficulty": 566378315999
-        },
-        {
-          "url": "http://6hvfdu4mrrzrdtz5zwhsibeswnk3xlnl2ax26x3yizbic6ctiuly7tid.onion:18081",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422689,
-          "version": "",
-          "difficulty": 566378315999
-        },
-        {
-          "url": "http://xmr.litepay.ch:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422689,
-          "version": "",
-          "difficulty": 566378315999
-        },
-        {
-          "url": "https://nodexmr.rctrusts.com:18089",
-          "type": "clearnet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://zxwfef533nw5fe7ya5bzkq3iibmudu7ea6qjpqobp3zhucwbpalqi5ad.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422689,
-          "version": "",
-          "difficulty": 566378315999
-        },
-        {
-          "url": "http://l3xwo7syitdagl6bi766olbmvjh22tzrmv3fzuw6jivqpzyqlpga.b32.i2p:18081",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://12.236.221.236:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422689,
-          "version": "",
-          "difficulty": 566378315999
-        },
-        {
-          "url": "http://77777777rb3purq5pwwgp4wyt2iaveq6e5ntz2opmz7xmmkujnwxx5yd.onion:21589",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://5oivxrzzngupy2gtyzuud4ct52tue5ro53vkfzwztjlc5nv422rq.b32.i2p:18081",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://oc42tdbdwgpyzpt4jej62tdnffhb5wvjkxcevbzplonrfncbi5la.b32.i2p:18081",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://134.56.81.174:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422691,
-          "version": "",
-          "difficulty": 568413260189
-        },
-        {
-          "url": "http://198.23.167.195:18081",
-          "type": "clearnet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://xmr.privex.io",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422693,
-          "version": "",
-          "difficulty": 567987806929
-        },
-        {
-          "url": "https://xmr-de.boldsuck.org:18081",
-          "type": "clearnet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://xmr-node.cakewallet.com:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422693,
-          "version": "",
-          "difficulty": 567987806929
-        },
-        {
-          "url": "http://g6ndnbwqp5ridisel5kxtveqhduahqct7ket3xaceafslh37c7gtsdqd.onion:18089",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://niggeryfpwbgpurypqn5bcjto6oiqllve2ke422ry4knhpclgne7g7ad.onion:18089",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422693,
-          "version": "",
-          "difficulty": 567987806929
-        },
-        {
-          "url": "http://7777777v3ndmmxittfikm2bg4znbpeps3fww7loanp7yetdkxzmpkvqd.onion:23389",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://7777777mzxgztwxdxmpoteuvytdss2opu47pqxuuq4pocmchi2r436yd.onion:22289",
-          "type": "darknet",
-          "status": "offline",
-          "error": "Failed all connection methods",
-          "height": 0
-        },
-        {
-          "url": "http://t6lharehj2kdi3boijsvdfzfabbn2jd2e6cvxett6frsvlfbz6gowxad.onion:18081",
-          "type": "darknet",
-          "status": "online",
-          "height": 3422695,
-          "version": "",
-          "difficulty": 569740273667
-        },
-        {
-          "url": "https://xmr.surveillance.monster",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422695,
-          "version": "",
-          "difficulty": 569740273667
-        },
-        {
-          "url": "https://monero.stackwallet.com:18081",
-          "type": "clearnet",
-          "status": "online",
-          "height": 3422695,
-          "version": "",
-          "difficulty": 569740273667
-        }
-      ],
-      "scan_duration": 1165.7058682441711
-    },
-    {
       "timestamp": "2025-05-30T06:35:16.460882",
       "nodes": [
         {
@@ -8116,6 +7304,818 @@
         }
       ],
       "scan_duration": 1297.99512052536
+    },
+    {
+      "timestamp": "2025-06-01T12:49:03.712341",
+      "nodes": [
+        {
+          "url": "http://compking.ddns.net:18089",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://pinodexmr.hopto.org:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424441,
+          "version": "",
+          "difficulty": 564235731976
+        },
+        {
+          "url": "https://xmr.marritt.ca",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424441,
+          "version": "",
+          "difficulty": 564235731976
+        },
+        {
+          "url": "https://moneronode.tjthespy.com:18089",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424441,
+          "version": "",
+          "difficulty": 564235731976
+        },
+        {
+          "url": "http://66666666ir37f6ct7igosrapjrkektsv34bjieop3654bs6wchibqwyd.onion:24289",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://mail.daline.com.cn:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424441,
+          "version": "0.18.3.4-release",
+          "difficulty": 564235731976
+        },
+        {
+          "url": "http://mexymskdcpunttj3kozziuw62aryumjggulew2kafk7rmvkmegrrgfyd.onion:18081",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424441,
+          "version": "",
+          "difficulty": 564235731976
+        },
+        {
+          "url": "http://uqj3aphckqtjsitz7kxx5flqpwjlq5ppr3chazfued7xucv3nheq.b32.i2p:18089",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://qte57xn6bmmwrxzwyu3eeryehsoxwufqssgvig6gs2hnceh5klj5tjad.onion:18089",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://234567x3ngs2wkjdlqmqo56t33s5mjh6dkobophwgthryfutydyax2qd.onion:20989",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424441,
+          "version": "",
+          "difficulty": 564235731976
+        },
+        {
+          "url": "http://2222222sm7eae2erfh6bs3bfmmp67srqdgmk4nudtbqgoocpnkbso5ad.onion:31589",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424441,
+          "version": "",
+          "difficulty": 564235731976
+        },
+        {
+          "url": "http://4q6ps46l3wv2x6zn7faeliycpdwldohex5oc4slplud65o6lpleq.b32.i2p",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://31.14.41.148:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424441,
+          "version": "",
+          "difficulty": 564235731976
+        },
+        {
+          "url": "https://node.chaoswg.dev",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424441,
+          "version": "",
+          "difficulty": 564235731976
+        },
+        {
+          "url": "http://plowsofe6cleftfmk2raiw5h2x66atrik3nja4bfd3zrfa2hdlgworad.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424441,
+          "version": "",
+          "difficulty": 564235731976
+        },
+        {
+          "url": "http://aclc4e2jhhtr44guufbnwk5bzwhaecinax4yip4wr4tjn27sjsfg6zqd.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424441,
+          "version": "",
+          "difficulty": 564235731976
+        },
+        {
+          "url": "http://securemonero.ddns.net:18089",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://doggettavnnnctrwm5dv6k42zmtl5f7j2n7sadfmibmnel4cantlf2id.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "http://qrkyy37jo54qcajfgdjderi7mpz6xkf4s7ewzpxzuld77lwz6trnxzid.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "http://one23456x5ke63wn3qafkmrmwmgai6nbuaryle5s3xd7y7hmjhzr3yid.onion:18489",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "https://xmr.0xrpc.io",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424441,
+          "version": "",
+          "difficulty": 0
+        },
+        {
+          "url": "http://ezpq6zn7t7424cfety75xpmxe2hbpqgsxrxeaqqesgxzuvnkkgzq.b32.i2p:18081",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://slc.sully.plus:18081",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://xmrnodei64luhuwm4qfi7jga2k3tdpy7l2ovbledihfjgt2xvvw3paad.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "http://9x.ddns.net:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "http://2222222rwcchnbljnkibxmtrm5by5w7phk2w4xni3l6yomqcyupovvyd.onion:31489",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "http://tor-exit-223.for-privacy.net:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "http://plowsof3t5hogddwabaeiyrno25efmzfxyro2vligremt7sxpsclfaid.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "http://ncbkcouzbqzcskr3dy26bvgzztpt7ywtjd2ly2bpv5c5zfxoht7gthad.onion:18081",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "http://2222225n32lfzgmhy3fpedt66j3tgcxdscbovalubpulgbqcqthlejid.onion:32489",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "http://one234fpth7flvtyvdbxmjb2dwfgmqz3r3sjyjsxqnlndy4ad6d5odqd.onion:30589",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://dicepro4s6naj2jxo64g2fxj4nvn3cs2jp6hjmp36dzioegmfjcn6uad.onion:18089",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://xmr.monopolymoney.eu:18089",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "https://libertytmtitynvmnto2k42liys5fenb3wabaozmmmksyrc7jvgmjiqd.onion:18089",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://121.98.149.60:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424442,
+          "version": "0.18.4.0-release",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "http://monero3x5yrb7tsalxx64tr2qhfw54xy3eudhswvpaskfvsdk2tzb3id.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "http://103.57.251.200:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424442,
+          "version": "",
+          "difficulty": 564706596353
+        },
+        {
+          "url": "http://77777777cdlacuu2p5bzpf36iyq7v5qy42z7x7arrokxvkq56cvxf2ad.onion:21389",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://176.106.34.61:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424443,
+          "version": "",
+          "difficulty": 566451197682
+        },
+        {
+          "url": "http://uss7rxezudh2oktqpsnsnhwl5mb3mumidp3sltmnl43dsm557zfgucid.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424443,
+          "version": "",
+          "difficulty": 566451197682
+        },
+        {
+          "url": "http://klybifhxe72uogbchp7cc2b5cuto4rst62b2ibcyhrq4i6npgfva.b32.i2p:18081",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://42gknieeubgvlxmfjophefk7k6bfw4yzrgnxozgp6e26xbbynq7q.b32.i2p:18089",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://nodex.monerujo.io:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424443,
+          "version": "",
+          "difficulty": 566451197682
+        },
+        {
+          "url": "http://one234athn3w6hrbanxgaxepxqs4676b6imdatd3spidzis3xj47lrad.onion:29289",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424443,
+          "version": "",
+          "difficulty": 566451197682
+        },
+        {
+          "url": "http://caninebear.com:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424443,
+          "version": "",
+          "difficulty": 566451197682
+        },
+        {
+          "url": "http://185.112.144.198:18089",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://plowsoffjexmxalw73tkjmf422gq6575fc7vicuu4javzn2ynnte6tyd.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424443,
+          "version": "",
+          "difficulty": 566451197682
+        },
+        {
+          "url": "https://xmr.visnova.pl",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424443,
+          "version": "",
+          "difficulty": 566451197682
+        },
+        {
+          "url": "http://ma4yeiegtwd6xaawno3afjna6fd427drfzh4ajk6wtdgfvhkgrwa.b32.i2p:18089",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://34.71.217.137:18081",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://ndbjchnxa5mt4lezsbrkiiicbdozxowygez5kp5soy5w7loxo5ka.b32.i2p:18081",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://hsubztxyvssd7b4i3fyxaqdhw53vike2gb6y34nuxuqbqylbyh6smdyd.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424444,
+          "version": "",
+          "difficulty": 566694708733
+        },
+        {
+          "url": "https://node.icefiles.nz:18081",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://v6a2clstyvpar6rjoqdl75ghjb4joka2hdzv7e2vgtshlzrlu5hojkqd.onion:18081",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424444,
+          "version": "",
+          "difficulty": 566694708733
+        },
+        {
+          "url": "https://xmr.bunkerlab.net:443",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://7777777oto6ppi27wr7knmnt2xbidygthzd3tw6uounppvmj3gar6tyd.onion:22589",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://xmrrpcmyrz3imrldcwiqt4vm5asq2vefgzybamxdigx37p3ctfcjnsad.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424444,
+          "version": "",
+          "difficulty": 566694708733
+        },
+        {
+          "url": "http://88.3.210.198:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424444,
+          "version": "",
+          "difficulty": 566694708733
+        },
+        {
+          "url": "http://35.198.32.241:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424445,
+          "version": "",
+          "difficulty": 565631554354
+        },
+        {
+          "url": "http://ptq6ldqaxcok32ipzzysggivaanvdu3cylnr6y32i6aa6qaqc7bq.b32.i2p:18081",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://node2-us.monero.love:18089",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://prdxssrzuovun5ucghpwlwafe6b2jje3j32ctfqrhhs5cllv3boq.b32.i2p:18081",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://67.82.72.131:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424445,
+          "version": "",
+          "difficulty": 565631554354
+        },
+        {
+          "url": "http://b3bgoxb6ximsjvks5jpzdkm5gntbd3ititgkvwfkuxtqit5wguzq.b32.i2p:18089",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://234567iafmgiypwchnrervjox36ushxrdi44tfxrdt24zjkjpvs6uvad.onion:19489",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424445,
+          "version": "",
+          "difficulty": 565631554354
+        },
+        {
+          "url": "http://xrft3jrcdrfwvry4aocxcswvwturaqxelesmtdk34j4646tajmc6rxyd.onion:18089",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://2222224jluwinkwl2xsrjtoevj67xfj677zyqlcc6lgarso7ni5blfyd.onion:32289",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424445,
+          "version": "",
+          "difficulty": 565631554354
+        },
+        {
+          "url": "http://31.14.41.157:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424445,
+          "version": "0.18.1.0-c8214782f",
+          "difficulty": 565631554354
+        },
+        {
+          "url": "http://54wxpf3y6jxqjklb4fdnafvb7f7qm5753gctu6gs65l6mczf72ma.b32.i2p:18081",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://65.21.153.254:18081",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "https://qte57xn6bmmwrxzwyu3eeryehsoxwufqssgvig6gs2hnceh5klj5tjad.onion:18089",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://lrl3wbfozqhvgha52desypnveo5mjvyjoh4yg67tzmopyoefh4v3abad.onion:18089",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://nthpyro.dev:18089",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://222222436ouvztzlwlxz7sswmtyvw6s5f6z24pymfhfj5nefji3vsdqd.onion:31889",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://81.207.74.50:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://5j2dtog2ygqldte4bbnbxkp3wilfu5krlhpplwoxpouuvd6jpmoa.b32.i2p:18081",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://46.242.130.241:18089",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://kie74uavctkniabg5khbxbix3jwvb3jtftb2szvrtnkucvuuzvfodnid.onion:18081",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://78.80.178.209:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://xmr-de.boldsuck.org:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://mailia.sds-ip.de:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://147.45.196.232:18089",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://2222224o2usuyyw3jb3gv7zaaqoitwje2xtrenemwdnjupsmtfjn7lqd.onion:32389",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://68.251.60.69:18089",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://104.153.209.162:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://6hvfdu4mrrzrdtz5zwhsibeswnk3xlnl2ax26x3yizbic6ctiuly7tid.onion:18081",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://xmr.litepay.ch:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "https://nodexmr.rctrusts.com:18089",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://zxwfef533nw5fe7ya5bzkq3iibmudu7ea6qjpqobp3zhucwbpalqi5ad.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://l3xwo7syitdagl6bi766olbmvjh22tzrmv3fzuw6jivqpzyqlpga.b32.i2p:18081",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://12.236.221.236:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://77777777rb3purq5pwwgp4wyt2iaveq6e5ntz2opmz7xmmkujnwxx5yd.onion:21589",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://5oivxrzzngupy2gtyzuud4ct52tue5ro53vkfzwztjlc5nv422rq.b32.i2p:18081",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://oc42tdbdwgpyzpt4jej62tdnffhb5wvjkxcevbzplonrfncbi5la.b32.i2p:18081",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://134.56.81.174:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424446,
+          "version": "",
+          "difficulty": 566708168785
+        },
+        {
+          "url": "http://198.23.167.195:18081",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://xmr.privex.io",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424447,
+          "version": "",
+          "difficulty": 565836776723
+        },
+        {
+          "url": "https://xmr-de.boldsuck.org:18081",
+          "type": "clearnet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://xmr-node.cakewallet.com:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424447,
+          "version": "",
+          "difficulty": 565836776723
+        },
+        {
+          "url": "http://g6ndnbwqp5ridisel5kxtveqhduahqct7ket3xaceafslh37c7gtsdqd.onion:18089",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://niggeryfpwbgpurypqn5bcjto6oiqllve2ke422ry4knhpclgne7g7ad.onion:18089",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424447,
+          "version": "",
+          "difficulty": 565836776723
+        },
+        {
+          "url": "http://7777777v3ndmmxittfikm2bg4znbpeps3fww7loanp7yetdkxzmpkvqd.onion:23389",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://7777777mzxgztwxdxmpoteuvytdss2opu47pqxuuq4pocmchi2r436yd.onion:22289",
+          "type": "darknet",
+          "status": "offline",
+          "error": "Failed all connection methods",
+          "height": 0
+        },
+        {
+          "url": "http://t6lharehj2kdi3boijsvdfzfabbn2jd2e6cvxett6frsvlfbz6gowxad.onion:18081",
+          "type": "darknet",
+          "status": "online",
+          "height": 3424448,
+          "version": "",
+          "difficulty": 566038950393
+        },
+        {
+          "url": "https://xmr.surveillance.monster",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424448,
+          "version": "",
+          "difficulty": 566038950393
+        },
+        {
+          "url": "https://monero.stackwallet.com:18081",
+          "type": "clearnet",
+          "status": "online",
+          "height": 3424448,
+          "version": "",
+          "difficulty": 566038950393
+        }
+      ],
+      "scan_duration": 1319.3275303840637
     }
   ]
 }
