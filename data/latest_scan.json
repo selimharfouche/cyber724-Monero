@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-21T12:34:15.568586",
+  "timestamp": "2026-09-21T21:53:54.869876",
   "nodes": [
     {
       "url": "http://compking.ddns.net:18089",
@@ -11,17 +11,18 @@
     {
       "url": "http://pinodexmr.hopto.org:18081",
       "type": "clearnet",
-      "status": "offline",
-      "error": "Failed all connection methods",
-      "height": 0
+      "status": "online",
+      "height": 3767605,
+      "version": "",
+      "difficulty": 754179955245
     },
     {
       "url": "https://xmr.marritt.ca",
       "type": "clearnet",
       "status": "online",
-      "height": 3767340,
+      "height": 3767605,
       "version": "",
-      "difficulty": 773760814764
+      "difficulty": 754179955245
     },
     {
       "url": "https://moneronode.tjthespy.com:18089",
@@ -47,9 +48,10 @@
     {
       "url": "http://mexymskdcpunttj3kozziuw62aryumjggulew2kafk7rmvkmegrrgfyd.onion:18081",
       "type": "darknet",
-      "status": "offline",
-      "error": "Failed all connection methods",
-      "height": 0
+      "status": "online",
+      "height": 3767605,
+      "version": "",
+      "difficulty": 754179955245
     },
     {
       "url": "http://uqj3aphckqtjsitz7kxx5flqpwjlq5ppr3chazfued7xucv3nheq.b32.i2p:18089",
@@ -97,17 +99,17 @@
       "url": "https://node.chaoswg.dev",
       "type": "clearnet",
       "status": "online",
-      "height": 3767344,
+      "height": 3767607,
       "version": "",
-      "difficulty": 777388088469
+      "difficulty": 754313811293
     },
     {
       "url": "http://plowsofe6cleftfmk2raiw5h2x66atrik3nja4bfd3zrfa2hdlgworad.onion:18089",
       "type": "darknet",
       "status": "online",
-      "height": 3767344,
+      "height": 3767607,
       "version": "",
-      "difficulty": 777388088469
+      "difficulty": 754313811293
     },
     {
       "url": "http://aclc4e2jhhtr44guufbnwk5bzwhaecinax4yip4wr4tjn27sjsfg6zqd.onion:18089",
@@ -127,9 +129,9 @@
       "url": "http://doggettavnnnctrwm5dv6k42zmtl5f7j2n7sadfmibmnel4cantlf2id.onion:18089",
       "type": "darknet",
       "status": "online",
-      "height": 3767344,
+      "height": 3767607,
       "version": "",
-      "difficulty": 777388088469
+      "difficulty": 754313811293
     },
     {
       "url": "http://qrkyy37jo54qcajfgdjderi7mpz6xkf4s7ewzpxzuld77lwz6trnxzid.onion:18089",
@@ -149,9 +151,9 @@
       "url": "https://xmr.0xrpc.io",
       "type": "clearnet",
       "status": "online",
-      "height": 3767345,
+      "height": 3767607,
       "version": "",
-      "difficulty": 782594618100
+      "difficulty": 754313811293
     },
     {
       "url": "http://ezpq6zn7t7424cfety75xpmxe2hbpqgsxrxeaqqesgxzuvnkkgzq.b32.i2p:18081",
@@ -171,17 +173,17 @@
       "url": "http://xmrnodei64luhuwm4qfi7jga2k3tdpy7l2ovbledihfjgt2xvvw3paad.onion:18089",
       "type": "darknet",
       "status": "online",
-      "height": 3767345,
+      "height": 3767607,
       "version": "",
-      "difficulty": 782594618100
+      "difficulty": 754313811293
     },
     {
       "url": "http://9x.ddns.net:18081",
       "type": "clearnet",
       "status": "online",
-      "height": 3767345,
+      "height": 3767607,
       "version": "",
-      "difficulty": 782594618100
+      "difficulty": 754313811293
     },
     {
       "url": "http://2222222rwcchnbljnkibxmtrm5by5w7phk2w4xni3l6yomqcyupovvyd.onion:31489",
@@ -194,25 +196,25 @@
       "url": "http://tor-exit-223.for-privacy.net:18081",
       "type": "clearnet",
       "status": "online",
-      "height": 3767346,
+      "height": 3767607,
       "version": "",
-      "difficulty": 782138766220
+      "difficulty": 754313811293
     },
     {
       "url": "http://plowsof3t5hogddwabaeiyrno25efmzfxyro2vligremt7sxpsclfaid.onion:18089",
       "type": "darknet",
       "status": "online",
-      "height": 3767346,
+      "height": 3767607,
       "version": "",
-      "difficulty": 782138766220
+      "difficulty": 754313811293
     },
     {
       "url": "http://ncbkcouzbqzcskr3dy26bvgzztpt7ywtjd2ly2bpv5c5zfxoht7gthad.onion:18081",
       "type": "darknet",
       "status": "online",
-      "height": 3767346,
+      "height": 3767607,
       "version": "",
-      "difficulty": 782138766220
+      "difficulty": 754313811293
     },
     {
       "url": "http://2222225n32lfzgmhy3fpedt66j3tgcxdscbovalubpulgbqcqthlejid.onion:32489",
@@ -260,9 +262,8 @@
       "url": "http://monero3x5yrb7tsalxx64tr2qhfw54xy3eudhswvpaskfvsdk2tzb3id.onion:18089",
       "type": "darknet",
       "status": "online",
-      "height": 3767348,
-      "version": "",
-      "difficulty": 781945377251
+      "note": "Responded with status 404",
+      "height": 0
     },
     {
       "url": "http://103.57.251.200:18081",
@@ -289,9 +290,9 @@
       "url": "http://uss7rxezudh2oktqpsnsnhwl5mb3mumidp3sltmnl43dsm557zfgucid.onion:18089",
       "type": "darknet",
       "status": "online",
-      "height": 3767349,
+      "height": 3767610,
       "version": "",
-      "difficulty": 786130200611
+      "difficulty": 757262414192
     },
     {
       "url": "http://klybifhxe72uogbchp7cc2b5cuto4rst62b2ibcyhrq4i6npgfva.b32.i2p:18081",
@@ -311,9 +312,9 @@
       "url": "http://nodex.monerujo.io:18081",
       "type": "clearnet",
       "status": "online",
-      "height": 3767349,
+      "height": 3767611,
       "version": "",
-      "difficulty": 786130200611
+      "difficulty": 755120009692
     },
     {
       "url": "http://one234athn3w6hrbanxgaxepxqs4676b6imdatd3spidzis3xj47lrad.onion:29289",
@@ -326,9 +327,9 @@
       "url": "http://caninebear.com:18081",
       "type": "clearnet",
       "status": "online",
-      "height": 3767350,
+      "height": 3767611,
       "version": "",
-      "difficulty": 787371208849
+      "difficulty": 755120009692
     },
     {
       "url": "http://185.112.144.198:18089",
@@ -341,17 +342,16 @@
       "url": "http://plowsoffjexmxalw73tkjmf422gq6575fc7vicuu4javzn2ynnte6tyd.onion:18089",
       "type": "darknet",
       "status": "online",
-      "height": 3767350,
-      "version": "",
-      "difficulty": 787371208849
+      "note": "Responded with status 404",
+      "height": 0
     },
     {
       "url": "https://xmr.visnova.pl",
       "type": "clearnet",
       "status": "online",
-      "height": 3767350,
+      "height": 3767611,
       "version": "",
-      "difficulty": 787371208849
+      "difficulty": 755120009692
     },
     {
       "url": "http://ma4yeiegtwd6xaawno3afjna6fd427drfzh4ajk6wtdgfvhkgrwa.b32.i2p:18089",
@@ -378,9 +378,9 @@
       "url": "http://hsubztxyvssd7b4i3fyxaqdhw53vike2gb6y34nuxuqbqylbyh6smdyd.onion:18089",
       "type": "darknet",
       "status": "online",
-      "height": 3767352,
+      "height": 3767614,
       "version": "",
-      "difficulty": 788184105885
+      "difficulty": 748931447979
     },
     {
       "url": "https://node.icefiles.nz:18081",
@@ -413,25 +413,26 @@
     {
       "url": "http://xmrrpcmyrz3imrldcwiqt4vm5asq2vefgzybamxdigx37p3ctfcjnsad.onion:18089",
       "type": "darknet",
-      "status": "offline",
-      "error": "Failed all connection methods",
-      "height": 0
+      "status": "online",
+      "height": 3767616,
+      "version": "",
+      "difficulty": 751151665437
     },
     {
       "url": "http://88.3.210.198:18081",
       "type": "clearnet",
       "status": "online",
-      "height": 3767355,
+      "height": 3767616,
       "version": "",
-      "difficulty": 786654973133
+      "difficulty": 751151665437
     },
     {
       "url": "http://35.198.32.241:18081",
       "type": "clearnet",
       "status": "online",
-      "height": 3767355,
+      "height": 3767616,
       "version": "",
-      "difficulty": 786654973133
+      "difficulty": 751151665437
     },
     {
       "url": "http://ptq6ldqaxcok32ipzzysggivaanvdu3cylnr6y32i6aa6qaqc7bq.b32.i2p:18081",
@@ -577,9 +578,9 @@
       "url": "http://xmr-de.boldsuck.org:18081",
       "type": "clearnet",
       "status": "online",
-      "height": 3767362,
+      "height": 3767621,
       "version": "",
-      "difficulty": 790065243209
+      "difficulty": 753185197288
     },
     {
       "url": "http://mailia.sds-ip.de:18081",
@@ -627,9 +628,9 @@
       "url": "http://xmr.litepay.ch:18081",
       "type": "clearnet",
       "status": "online",
-      "height": 3767367,
+      "height": 3767622,
       "version": "",
-      "difficulty": 777404848584
+      "difficulty": 751666767580
     },
     {
       "url": "https://nodexmr.rctrusts.com:18089",
@@ -642,9 +643,8 @@
       "url": "http://zxwfef533nw5fe7ya5bzkq3iibmudu7ea6qjpqobp3zhucwbpalqi5ad.onion:18089",
       "type": "darknet",
       "status": "online",
-      "height": 3767367,
-      "version": "",
-      "difficulty": 777404848584
+      "note": "Responded with status 404",
+      "height": 0
     },
     {
       "url": "http://l3xwo7syitdagl6bi766olbmvjh22tzrmv3fzuw6jivqpzyqlpga.b32.i2p:18081",
@@ -657,9 +657,9 @@
       "url": "http://12.236.221.236:18081",
       "type": "clearnet",
       "status": "online",
-      "height": 3767367,
+      "height": 3767623,
       "version": "",
-      "difficulty": 777404848584
+      "difficulty": 751623665267
     },
     {
       "url": "http://77777777rb3purq5pwwgp4wyt2iaveq6e5ntz2opmz7xmmkujnwxx5yd.onion:21589",
@@ -686,9 +686,9 @@
       "url": "http://134.56.81.174:18081",
       "type": "clearnet",
       "status": "online",
-      "height": 3767368,
+      "height": 3767624,
       "version": "",
-      "difficulty": 777402281830
+      "difficulty": 749798318441
     },
     {
       "url": "http://198.23.167.195:18081",
@@ -701,9 +701,9 @@
       "url": "http://xmr.privex.io",
       "type": "clearnet",
       "status": "online",
-      "height": 3767368,
+      "height": 3767624,
       "version": "0.18.4.5-release",
-      "difficulty": 777402281830
+      "difficulty": 749798318441
     },
     {
       "url": "https://xmr-de.boldsuck.org:18081",
@@ -716,9 +716,9 @@
       "url": "http://xmr-node.cakewallet.com:18081",
       "type": "clearnet",
       "status": "online",
-      "height": 3767368,
+      "height": 3767624,
       "version": "",
-      "difficulty": 777402281830
+      "difficulty": 749798318441
     },
     {
       "url": "http://g6ndnbwqp5ridisel5kxtveqhduahqct7ket3xaceafslh37c7gtsdqd.onion:18089",
@@ -752,16 +752,17 @@
       "url": "http://t6lharehj2kdi3boijsvdfzfabbn2jd2e6cvxett6frsvlfbz6gowxad.onion:18081",
       "type": "darknet",
       "status": "online",
-      "note": "Responded with status 404",
-      "height": 0
+      "height": 3767629,
+      "version": "",
+      "difficulty": 0
     },
     {
       "url": "https://xmr.surveillance.monster",
       "type": "clearnet",
       "status": "online",
-      "height": 3767371,
+      "height": 3767630,
       "version": "",
-      "difficulty": 773779244931
+      "difficulty": 756052412789
     },
     {
       "url": "https://monero.stackwallet.com:18081",
@@ -771,5 +772,5 @@
       "height": 0
     }
   ],
-  "scan_duration": 3053.1459016799927
+  "scan_duration": 3041.310896396637
 }
